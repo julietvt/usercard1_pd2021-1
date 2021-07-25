@@ -1,3 +1,90 @@
+.userContainer {
+  width: 400px;
+  height: px;
+  background-color: aquamarine;
+  border-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.userSity {
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.userAbout {
+  text-align: center;
+  margin-top: 15px;
+}
+.userText {
+  text-transform: uppercase;
+  background-color: #2d9c5257;
+}
+.imgAvatar {
+  height: 150px;
+  width: 150px;
+  margin-left: 30%;
+  margin-top: 5%;
+  border: 5px solid white;
+  border-radius: 50%;
+  border-right-color: violet;
+  border-top-color: thistle;
+  border-bottom-color: rgba(0, 0, 0, 0.575);
+  overflow: hidden;
+}
+
+.imgAvatar > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.buttonFollowMe > span {
+  position: relative;
+  top: 10px;
+}
+.buttonFollowMe {
+  margin-left: 37%;
+  width: 100px;
+  height: 40px;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.userStatCont {
+  margin-top: 30px;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.userLink1,
+.userLink2,
+.userLink3 {
+  text-align: center;
+  display: inline-block;
+  width: 32%;
+}
+
+.userLink1,
+.userLink2 {
+  border-right-style: solid;
+  border-right-color: white;
+  border-right-width: 2px;
+}
+
+.info {
+  display: inline-block;
+}
+
+.userLink > img {
+  margin-right: 20px;
+}
+
+/*
 * {
   box-sizing: border-box;
   margin: 0 auto;
@@ -37,7 +124,6 @@ body {
 
 .userStatContainer {
   padding: 20px;
-  /*display: inline-block;*/
 }
 
 .userStatItem {
@@ -76,3 +162,4 @@ body {
 .statName {
   font-weight: bold;
 }
+*/
